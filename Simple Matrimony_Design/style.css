@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#navbar{
+    top:0;
+    left:0;
+    width:100%;
+    height:50px;
+    padding:.5rem 5rem;
+    margin:20px 0px 20px 0px;
+    z-index:100;
+    color:white;
+    background-color: transparent;
+    position:fixed;
+}
+.navbar .navbar-brand{
+    font-size:25px;
+    font-weight:400;
+    color: white;
+}
+#navbarSupportedContent a{
+    color:white;
+}
+#navbarSupportedContent a:hover{
+    border-bottom:2px solid rgb(207, 75, 154);
+}
+#navbarSupportedContent button{
+    background-color: rgb(207, 75, 154);
+    border:none;
+    color:white;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 30px;
+    margin:10px;
+    
+}
+#navbarSupportedContent button:hover{
+    background-color: white;
+    border-color:1px solid rgb(207, 75, 154) !important;
+    color:rgb(207, 75, 154);
+    font-weight: bold;
+}
+section{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.8)),url('wed.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#home h1{
+    color:white;
+    letter-spacing: 1px;	
+}
+#home h6{
+    color:rgb(255, 155, 68);
+    font-weight: bold;
+}
+#home .btnreg{
+    text-decoration: none;
+    background-color:rgb(255, 155, 68) ;
+    border:none;
+    color:white;
+    width:9rem;
+    height: 2.2rem;
+    border-radius: 2px;
+    margin:10px;
+    padding:5px;  
+    font-weight: 550; 
+}
+#home .btnreg:hover{
+    text-decoration: none;
+    border-color:1px solid rgb(255, 155, 68) ;
+    background-color: transparent;
+    color:rgb(255, 155, 68);
+    width:9rem;
+    height: 2.2rem;
+    border-radius: 2px;
+    margin:10px;
+    padding:5px;  
+    font-weight: 550; 
+}
+#register{
+    width:100%;
+    height:100%;
+    background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.5)),url('regisb.jpg');
+    background-size: cover;
+    background-position: center;
+    color:white;
+    padding: 40px;
+    justify-content: space-between;
+}
+.btnlog{
+    background-color:rgb(255, 155, 68) ;
+    border:none;
+    color:white;
+    width:8rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    margin:10px;
+    padding:8px;
+}
+#about{
+    background-image: url('flow.jpg');
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100%;
+    padding:30px;
+}
+#about h2{
+   color:black
+}
+#about img{
+    border-radius:50%;
+    padding: 10px;
+    box-shadow:5px 5px 20px rgba(0,0,0,.5);	
+}
+#intro{
+    background-image: url(bgback.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100%;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+#intro h6,h2{
+    color: white;
+    letter-spacing: 1px;
+}
+#intro img{
+    border-radius:50%;
+    padding: 6px;
+    box-shadow:5px 5px 20px rgba(0,0,0,.5);
+    height:200px;
+    width:200px;
+}
+#intro img:hover{
+    box-shadow:5px 5px 20px rgba(0,0,0,.5);
+    transform: scale(1.02);
+}
+#intro .colg{
+    padding:20px;
+    overflow:hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+}
+#features{
+    width:100%;
+    height: 150%;
+    padding: 40px;
+}
+#features .card-title{
+    color:rgb(133, 1, 80);
+}
+#features .card{
+    width:300px;
+	height:150px;
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	margin:10px;
+    border: none;
+}
+#download{
+    padding:40px;
+    height:130%;
+    width:100%;
+}
+#member{
+    background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.5)),url('member.jpg');
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:120%;
+    padding:30px;
+}
+#member .btnmem{
+    background-color: rgb(207, 75, 154);
+    border:none;
+    color:white;
+    width:12rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    margin:10px;
+    padding:8px;
+}
+#happystory{
+    width: 100%;
+    height:150%;
+    padding:40px;
+}
+#happystory .card{
+    width:250px;
+	height:300px;
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	margin:10px;
+}
+#contact{
+    background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.5)),url(bgforcon.jpg);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    padding:30px;
+}
+#contact ul{
+    overflow:hidden;
+    display: flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items:center;
+}
+#contact ul li{
+    float: left;
+    padding:15px;
+}
+#contact ul li a{
+    text-decoration: none;
+    color:white;
+}
+#contact p{
+    letter-spacing: 0.2px;
+}
+#contact img{
+    padding: 10px;
+}
